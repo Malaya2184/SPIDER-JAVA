@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatePosetiveNegative",
+            "request": "launch",
+            "mainClass": "AlternatePosetiveNegative",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch CyclicRotate",
+            "request": "launch",
+            "mainClass": "CyclicRotate",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDuplicates",
+            "request": "launch",
+            "mainClass": "FindDuplicates",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMinMax",
+            "request": "launch",
+            "mainClass": "FindMinMax",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindTheMissingInteger",
+            "request": "launch",
+            "mainClass": "FindTheMissingInteger",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch OccuranceOFInteger",
+            "request": "launch",
+            "mainClass": "OccuranceOFInteger",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PeakElement",
+            "request": "launch",
+            "mainClass": "PeakElement",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseWords",
+            "request": "launch",
+            "mainClass": "ReverseWords",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArraySum",
+            "request": "launch",
+            "mainClass": "SubArraySum",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "Practice_1b98916c"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnionInterSection",
+            "request": "launch",
+            "mainClass": "UnionInterSection",
+            "projectName": "Practice_1b98916c"
+        }
+    ]
+}
